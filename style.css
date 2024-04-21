@@ -1,0 +1,45 @@
+.container{
+    height: 800px;
+    width: 700px;
+    display: block;
+}
+#portada{
+    background-color: black;
+    color:aliceblue;
+}
+#title{
+    text-align: center;
+}
+img{
+    height: 100px;
+    padding: 20px;
+}
+
+#perfil{
+    width: 20%;
+    text-align: center;
+    border: 1px solid black;
+    height: 250px;
+    margin:20px
+}
+
+.bloque-1{
+    display: flex;
+}
+.bloque-2{
+    padding: 20px;
+}
+#persona{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.publicacion{
+    border: 1px solid black;
+    margin-bottom:20px;
+    padding: 10px;
+}
+#btn-like, #btn-like-1, #btn-like-2{
+    background-color: rgb(232, 232, 154);
+
+}

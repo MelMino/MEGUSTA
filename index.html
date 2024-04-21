@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="portada">
+            <h1>Network</h1>
+        </div>
+        <h1 id="title">Your Feed</h1> 
+        <div class="bloque-1">
+            <div id="perfil">
+                <img src="user-circle.png">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+            <div class="bloque-2">
+                <div class="publicacion">
+                    <div id="persona">
+                        <h2> Neil M</h2>
+                        <div class="likes">
+                            <span id="num"> 0 </span>
+                            <span>like(s)</span>
+                            <button onclick="sumarLikes('num')" id="btn-like">Like</button>
+                        </div>
+                    </div>
+                    <div id="contenido">
+                        <h3>I just set up this new discord bot. let me know what you all think. <a href="#">link</a></h3>
+                    </div>
+                </div>
+                <div class="publicacion">
+                    <div id="persona">
+                        <h2> Nichole K</h2>
+                        <div class="likes">
+                            <span id="num-1"> 0 </span>
+                            <span>like(s)</span>
+                            <button onclick="sumarLikes('num-1')" id="btn-like-1">Like</button>
+                        </div>
+                    </div>
+                    <div id="contenido">
+                        <h3>Just finished my <a href="#">next comic</a>, check it out</h3>
+                    </div>
+                </div>
+                <div class="publicacion">
+                    <div id="persona">
+                        <h2> Jim R</h2>
+                        <div class="likes">
+                            <span id="num-2"> 0 </span>
+                            <span>like(s)</span>
+                            <button onclick="sumarLikes('num-2')" id="btn-like-1">Like</button>
+                        </div>
+                    </div>
+                    <div id="contenido">
+                        <h3>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</h3>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div> 
+</body>
+</html>
